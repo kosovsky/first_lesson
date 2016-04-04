@@ -9,7 +9,7 @@ var name = 'Yurii',
     isAdmin = true;
 
 //Task 2 and Task 3: Object user (Compatible with ECMA6)
-var user = {name:name,email:name,age:name,isAdmin:name};
+var user = {name:name,email:email,age:age,isAdmin:isAdmin};
 
 //Task 3: Not compatible with ECMA6
 //window.user.name = name;
