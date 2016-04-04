@@ -8,14 +8,14 @@ var name = 'Yurii',
     age = 31,
     isAdmin = true;
 
-//Task 2: Object user
-var user = {name,email,age,isAdmin};
+//Task 2 and Task 3: Object user (Compatible with ECMA6)
+var user = {name:name,email:name,age:name,isAdmin:name};
 
-//Task 3:
-window.user.name = name;
-window.user.email = email;
-window.user.age = age;
-window.user.isAdmin = isAdmin;
+//Task 3: Not compatible with ECMA6
+//window.user.name = name;
+//window.user.email = email;
+//window.user.age = age;
+//window.user.isAdmin = isAdmin;
 
 //Task 4: Reverse boolean
 window.user.isAdmin = !window.user.isAdmin;
